@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"   # You can change this if you have specific build commands
+  publish = "public"          # Folder that will be published to Netlify (change if needed)
+
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
